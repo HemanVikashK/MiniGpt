@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* .app {
+  background-color: #ffffff;
+  display: flex;
+} */
+
+.side-bar {
+  background-color: #000000;
+  height: 92%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+button {
+  background-color: #383839;
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+nav {
+  border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 10px;
+}
+
+.history {
+  color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  height: 100%;
+}
+
+.history li {
+  list-style-type: none;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+.info {
+  color: #000000;
+  font-size: 11px;
+  padding: 10px;
+}
+
+.bottom-section {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  background-color: #000000;
+  padding: 12px 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.002);
+  color: #ffffff;
+}
+
+.side-bar {
+  color: #ffffff;
+}
+
+.side-text {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+#submit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.feed {
+  width: 100%;
+  padding: 0;
+}
+
+.feed li {
+  display: flex;
+  background-color: #252525;
+  width: 90%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.feed p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.feed p.role {
+  min-width: 100px;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.app {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.side-bar {
+  padding: 20px;
+}
+
+.button-primary {
+  background-color: #3366ff;
+  color: #ffffff;
+}
+
+.button-primary:hover {
+  background-color: #1a44b3;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+.nav {
+  width: 100px;
+  height: 100vh;
+
+  font-size: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.instaui {
+  display: flex;
+}
+.messagebox {
+  width: 30%;
+  height: 100vh;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.messagetop {
+  height: 8%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+}
+.messagemiddle {
+  height: 4%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+}
+.messagebotm {
+  height: 8%;
+  width: 100%;
+  cursor: pointer;
+}
+.newmsg {
+  font-size: 40px;
+  justify-self: flex-end;
+}
+h3 {
+  position: relative;
+  left: 10px;
+}
+.req {
+  color: rgb(93, 93, 93);
+}
+.msgs {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: flex-start;
+}
+.msgs1 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: flex-start;
+  background-color: rgb(204, 204, 204);
+}
+.pfp {
+  background-image: url("https://scontent.fmaa2-3.fna.fbcdn.net/v/t1.30497-1/115870214_694925034696967_1870022665148339563_n.jpg?stp=dst-jpg_p100x100&_nc_cat=1&ccb=1-7&_nc_sid=12b3be&_nc_ohc=7VsRJY_4MWAAX8SKF7X&_nc_ad=z-m&_nc_cid=2034&_nc_ht=scontent.fmaa2-3.fna&oh=00_AfBA-tNOErCuR-JkR06Q7UFaLcnvdVFpGVqNeO84ios4HQ&oe=64CDC3A2");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.newmsg:hover,
+.icon1:hover,
+.mainpfp:hover,
+.icon2:hover,
+.icon3:hover,
+.icon4:hover {
+  background-color: rgb(227, 227, 227);
+  padding: 10px;
+  border-radius: 20px;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.mainpfp {
+  background-image: url("https://scontent.fmaa2-3.fna.fbcdn.net/v/t1.30497-1/115870214_694925034696967_1870022665148339563_n.jpg?stp=dst-jpg_p100x100&_nc_cat=1&ccb=1-7&_nc_sid=12b3be&_nc_ohc=7VsRJY_4MWAAX8SKF7X&_nc_ad=z-m&_nc_cid=2034&_nc_ht=scontent.fmaa2-3.fna&oh=00_AfBA-tNOErCuR-JkR06Q7UFaLcnvdVFpGVqNeO84ios4HQ&oe=64CDC3A2");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.chatbox {
+  width: 80%;
+  height: 100vh;
+}
+.chattop {
+  width: 98%;
+  height: 8%;
+  border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+.icon4 {
+  font-size: 40px;
+  position: absolute;
+  right: 10px;
+}
+.icon3 {
+  font-size: 40px;
+  position: absolute;
+  right: 70px;
+}
+.icon2 {
+  font-size: 40px;
+  position: absolute;
+  right: 130px;
+}
+.icon2:hover,
+.icon3:hover,
+.icon4:hover {
+  background-color: rgb(227, 227, 227);
+  padding: 10px;
+  border-radius: 20px;
+  transition: 200ms;
+  cursor: pointer;
+}
+.chatbotm {
+  height: 87%;
+  width: 100%;
+  padding: 15px;
+
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.chatcontainer {
+  height: 5%;
+  width: 95%;
+  border: 1px solid rgb(110, 105, 105);
+  bottom: 3px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  bottom: 15px;
+  align-self: flex-start;
+}
+.icon5 {
+  position: relative;
+  left: 10px;
+  font-size: 32px;
+  cursor: pointer;
+}
+.icon8 {
+  position: absolute;
+  font-size: 32px;
+  cursor: pointer;
+  right: 15px;
+}
+.icon9 {
+  position: absolute;
+  font-size: 32px;
+  cursor: pointer;
+  right: 135px;
+}
+
+.icon7 {
+  position: absolute;
+  cursor: pointer;
+  right: 55px;
+  font-size: 32px;
+}
+.icon6 {
+  position: absolute;
+  cursor: pointer;
+  right: 95px;
+  font-size: 32px;
+}
+.miniGPTcontainer {
+  width: 95%;
+  height: 50vh;
+  background-color: rgb(0, 0, 0);
+  bottom: 20px;
+  position: relative;
+  display: flex;
+  border-radius: 20px;
+}
